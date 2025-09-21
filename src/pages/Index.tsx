@@ -43,70 +43,46 @@ interface Translation {
 const translations: Translation = {
   // Navigation
   home: { tr: 'Ana Sayfa', en: 'Home', ar: 'الرئيسية' },
-  about: { tr: 'Hakkımda', en: 'About', ar: 'معلومات عنا' },
+  about: { tr: 'Hakkımda', en: 'About', ar: 'معلومات' },
   services: { tr: 'Hizmetler', en: 'Services', ar: 'الخدمات' },
-  hygiene: { tr: 'Hijyen', en: 'Hygiene', ar: 'النظافة' },
+  hygiene: { tr: 'Hijyen', en: 'Hygiene', ar: 'ركن العناية الفموية' },
   cases: { tr: 'Vakalar', en: 'Cases', ar: 'الحالات' },
   opinions: { tr: 'Görüşler', en: 'Opinions', ar: 'الآراء' },
-  contact: { tr: 'İletişim', en: 'Contact', ar: 'اتصل بنا' },
-
+  contact: { tr: 'İletişim', en: 'Contact', ar: 'تواصل معنا' },
+  
   // Hero section
-  welcomeTitle: {
-    tr: 'Dr. Enes Aksoy',
-    en: 'Dr. Enes Aksoy',
-    ar: 'د. إينيس أقصوي',
-  },
-  welcomeSubtitle: {
-    tr: 'Gülüşünüzün Mimarı - Modern Diş Hekimliği',
-    en: 'Architect of Your Smile - Modern Dentistry',
-    ar: 'مهندس ابتسامتك - طب الأسنان الحديث',
-  },
+  welcomeTitle: { tr: 'Dr. Enes Aksoy', en: 'Dr. Enes Aksoy', ar: 'د. أنس أكسوي' },
+  welcomeSubtitle: { tr: 'Kişisel dokunuşla modern diş hekimliği', en: 'Modern dentistry with a personal touch', ar: 'طب الأسنان الحديث بلمسة خاصة' },
   whatsapp: { tr: 'WhatsApp', en: 'WhatsApp', ar: 'واتساب' },
   email: { tr: 'E-posta', en: 'Email', ar: 'البريد الإلكتروني' },
-
+  
   // About section
   aboutTitle: { tr: 'Hakkımda', en: 'About Me', ar: 'معلومات عني' },
-  aboutText: {
-    tr: "Ben Dr. Enes Aksoy, Ankara Üniversitesi mezunuyum. Şu anda Türkiye'de periodontoloji ve dental implantoloji alanında doktora yapmaktayım. Ana odağım modern, hasta odaklı bakımdır. Genel diş hekimliğini periodontoloji, implantoloji ve biyomimetik diş hekimliğindeki en son tekniklerle birleştirerek minimal invaziv, doğal ve uzun ömürlü tedaviler hedefliyorum. Amacım diş hekimliğini hastalar için daha ulaşılabilir hale getirirken klinikte her gün pratik, yenilikçi çözümler uygulamaktır.",
-    en: 'I am Dr. Enes Aksoy, I graduated from Ankara University. Currently I am pursuing a PhD in periodontology and dental implantology in Turkey. My main focus is modern, patient-centered care. I combine general dentistry with the latest techniques in periodontology, implantology, and biomimetic dentistry, aiming for minimally invasive, natural, and long-lasting treatments. My goal is to make dentistry more approachable for patients while applying practical, innovative solutions every day in the clinic.',
-    ar: 'أنا د. إينيس أقصوي، تخرجت من جامعة أنقرة. حالياً أقوم بالدكتوراه في أمراض اللثة وزراعة الأسنان في تركيا. تركيزي الأساسي هو الرعاية الحديثة المتمحورة حول المريض. أجمع بين طب الأسنان العام وأحدث التقنيات في أمراض اللثة وزراعة الأسنان وطب الأسنان البيوميميتيكي، بهدف العلاجات طفيفة التوغل والطبيعية وطويلة الأمد. هدفي هو جعل طب الأسنان أكثر سهولة للمرضى مع تطبيق حلول عملية ومبتكرة كل يوم في العيادة.',
-  },
-
+  aboutText: { tr: 'Ben Dr. Enes Aksoy, Ankara Üniversitesi mezunuyum. Şu anda Türkiye\'de periodontoloji ve dental implantoloji alanında doktora yapmaktayım. Ana odağım modern, hasta odaklı bakımdır. Genel diş hekimliğini periodontoloji, implantoloji ve biyomimetik diş hekimliğindeki en son tekniklerle birleştirerek minimal invaziv, doğal ve uzun ömürlü tedaviler hedefliyorum. Amacım diş hekimliğini hastalar için daha ulaşılabilir hale getirirken klinikte her gün pratik, yenilikçi çözümler uygulamaktır.', en: 'I am Dr. Enes Aksoy, I graduated from Ankara University. Currently I am pursuing a PhD in periodontology and dental implantology in Turkey. My main focus is modern, patient-centered care. I combine general dentistry with the latest techniques in periodontology, implantology, and biomimetic dentistry, aiming for minimally invasive, natural, and long-lasting treatments. My goal is to make dentistry more approachable for patients while applying practical, innovative solutions every day in the clinic.', ar: 'أنا د. أنس أكسوي، تخرجت من جامعة أنقرة. حالياً أقوم بالدكتوراه في أمراض اللثة وزراعة الأسنان في تركيا. تركيزي الأساسي هو الرعاية الحديثة المتمحورة حول المريض. أجمع بين طب الأسنان العام وأحدث التقنيات في أمراض اللثة وزراعة الأسنان وطب الأسنان البيوميميتيكي، بهدف العلاجات طفيفة التوغل والطبيعية وطويلة الأمد. هدفي هو جعل طب الأسنان أكثر سهولة للمرضى مع تطبيق حلول عملية ومبتكرة كل يوم في العيادة.' },
+  
   // Services
   servicesTitle: { tr: 'Hizmetlerimiz', en: 'Our Services', ar: 'خدماتنا' },
   filling: { tr: 'Dolgu Tedavisi', en: 'Dental Filling', ar: 'حشو الأسنان' },
   implants: { tr: 'İmplant', en: 'Dental Implants', ar: 'زراعة الأسنان' },
-  whitening: { tr: 'Beyazlatma', en: 'Teeth Whitening', ar: 'تبييض الأسنان' },
-  rootCanal: { tr: 'Kanal Tedavisi', en: 'Root Canal', ar: 'علاج قناة الجذر' },
-  aesthetics: {
-    tr: 'Estetik Diş Hekimliği',
-    en: 'Aesthetic Dentistry',
-    ar: 'طب الأسنان التجميلي',
-  },
-  periodontal: {
-    tr: 'Periodontal Tedavi',
-    en: 'Periodontal Treatment',
-    ar: 'علاج اللثة',
-  },
-
+  whitening: { tr: 'Beyazlatma', en: 'Teeth Whitening', ar: 'قلع و جراحات' },
+  rootCanal: { tr: 'Kanal Tedavisi', en: 'Root Canal', ar: 'العصب و الجذور' },
+  aesthetics: { tr: 'Estetik Diş Hekimliği', en: 'Aesthetic Dentistry', ar: 'طب الأسنان التجميلي' },
+  periodontal: { tr: 'Periodontal Tedavi', en: 'Periodontal Treatment', ar: 'علاج اللثة' },
+  
   // Hygiene Hub
-  hygieneTitle: { tr: 'Hijyen Merkezi', en: 'Hygiene Hub', ar: 'مركز النظافة' },
-  hygieneDesc: {
-    tr: 'Ağız ve diş sağlığınız için önemli bilgiler',
-    en: 'Important information for your oral and dental health',
-    ar: 'معلومات مهمة لصحة الفم والأسنان',
-  },
-
+  hygieneTitle: { tr: 'Hijyen Merkezi', en: 'Hygiene Hub', ar: 'ركن العناية الفموية' },
+  hygieneDesc: { tr: 'Ağız ve diş sağlığınız için önemli bilgiler', en: 'Important information for your oral and dental health', ar: 'معلومات مهمة لصحة الفم والأسنان' },
+  
   // Contact
-  contactTitle: { tr: 'İletişim', en: 'Contact', ar: 'اتصل بنا' },
+  contactTitle: { tr: 'İletişim', en: 'Contact', ar: 'تواصل معنا' },
   phone: { tr: 'Telefon', en: 'Phone', ar: 'الهاتف' },
   address: { tr: 'Adres', en: 'Address', ar: 'العنوان' },
-
+  
   // Form
   leaveReview: { tr: 'Görüş Bırakın', en: 'Leave a Review', ar: 'اترك رأيك' },
   name: { tr: 'İsim', en: 'Name', ar: 'الاسم' },
   message: { tr: 'Mesaj', en: 'Message', ar: 'الرسالة' },
-  submit: { tr: 'Gönder', en: 'Submit', ar: 'إرسال' },
+  submit: { tr: 'Gönder', en: 'Submit', ar: 'إرسال' }
 };
 
 const DentalClinic = () => {
