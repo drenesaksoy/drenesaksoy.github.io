@@ -5,7 +5,7 @@ import { componentTagger } from 'lovable-tagger';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/clear-care-canvas-48/' : '/',
+  base: mode === 'production' ? '/drenesaksoy.github.io/' : '/',
   server: {
     host: '::',
     port: 8080,
