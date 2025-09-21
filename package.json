@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://drenesaksoy.github.io/drenesaksoy.github.io"
+  "homepage": "https://drenesaksoy.github.io/drenesaksoy.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
